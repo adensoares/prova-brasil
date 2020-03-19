@@ -1,0 +1,342 @@
+/*
+########################################
+# Geral                                #
+########################################
+*/
+
+
+@font-face {
+  font-family: Montserrat;
+  src:
+    url(./fonts/otf/Montserrat-Regular.otf),
+    url(./fonts/Montserrat-Regular.ttf);
+}
+
+html {
+  font-family: Montserrat;
+}
+
+html p,
+span {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.linha {
+  background: #000;
+  width: 100%;
+  height: 1px;
+  margin: 30px auto;
+  padding: 0;
+}
+
+.recuo-linha {
+  margin-left: 3em !important;
+  margin-right: 3em !important;
+  width: calc(100% - 3em) !important;
+}
+
+.page {
+  background: #000;
+  width: 100%;
+  height: 2px;
+  text-align: center;
+  margin: 50px 0;
+  padding: 0;
+}
+
+.page span {
+  background: #fff;
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.inicial {
+  margin-top: 150px;
+}
+
+.centralizado {
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.espelhado {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cabecalho img,
+.cabecalho h2 {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+/*
+########################################
+# Formas                               #
+########################################
+*/
+
+.retangulo-branco {
+  border-radius: 10px;
+  border: 2px solid #d36b32;
+  min-height: 230px;
+  margin: 10px;
+  width: 100%;
+  padding: 20px 20px 0px 20px;
+
+}
+
+.retangulo-laranja {
+  border-radius: 10px;
+  background-color: #FDEBD4;
+  padding: 20px;
+  margin: 10px;
+  text-align: justify;
+}
+
+.retangulo-laranja-2 {
+  border-radius: 50px;
+  background-color: #fcd399;
+  padding: 30px 30px 20px 30px;
+}
+
+/*
+########################################
+# Cores                                #
+########################################
+*/
+
+.azul {
+  color: #1b89cb;
+}
+
+.laranja {
+  color: #f58220;
+}
+
+.laranja-2 {
+  color: #d89556;
+}
+
+.roxo {
+  color: #6e2c91;
+}
+
+
+
+/*
+########################################
+# Setas                                #
+########################################
+*/
+
+.seta-azul {
+  border-left: 14px solid #1b89cb;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  float: left;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+.seta-laranja {
+  border-left: 14px solid darkorange;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  float: left;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+.seta-verde {
+  border-left: 8px solid #00afaa;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  float: left;
+  margin-right: 5px;
+  margin-top: 9px;
+}
+
+.seta {
+  border-left: 8px solid #000;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  float: left;
+  margin-right: 5px;
+  margin-top: 9px;
+}
+
+/*
+########################################
+# Textos                               #
+########################################
+*/
+
+.texto strong {
+  color: #f58220;
+}
+
+.capitular::first-letter {
+  float: left;
+  font-size: 7em;
+  margin: 0 .1em 0 .3em;
+  line-height: 0.7em;
+}
+
+.header h1 {
+  color: #ffffff;
+  text-align: right;
+  margin-top: -200px;
+  margin-right: 70px;
+  font-weight: 1000;
+}
+
+.up {
+  text-transform: uppercase;
+}
+
+/* .referencia {
+  margin-left: 9em !important;
+  font-size: 12px;
+  width: calc(100% - 3em) !important;
+} */
+
+.ref p {
+  font-size: 0.7em;
+  text-align: center;
+}
+
+.titulo h1 {
+  font-weight: 1000;
+  font-size: 3em;
+}
+
+.subtitulo h2 {
+  font-size: 34px;
+  font-weight: 1000;
+}
+
+.subtitulo h3 {
+  font-weight: 1000;
+}
+
+.texto {
+  width: 100%;
+}
+
+.recuo p {
+  text-indent: 2em;
+}
+
+.bold {
+  font-weight: 1000;
+}
+
+
+/*
+########################################
+# Imagens                              #
+########################################
+*/
+
+.icones {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.header img {
+  width: 100%;
+}
+
+.w10 {
+  width: 10%;
+}
+
+.w15 {
+  width: 15%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w35 {
+  width: 35%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w45 {
+  width: 45%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w55 {
+  width: 55%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w65 {
+  width: 65%;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w75 {
+  width: 75%;
+}
+
+.w80 {
+  width: 80%;
+}
+
+.w85 {
+  width: 85%;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.w95 {
+  width: 95%;
+}
+
+.w100 {
+  width: 100%;
+}
