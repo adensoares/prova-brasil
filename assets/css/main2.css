@@ -189,6 +189,10 @@ span {
 ########################################
 */
 
+.texto-preto strong {
+  color: #000;
+}
+
 .texto strong {
   color: #f58220;
 }
