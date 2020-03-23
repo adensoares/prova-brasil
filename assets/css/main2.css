@@ -93,6 +93,12 @@ span {
 ########################################
 */
 
+.retangulo {
+  height: 1100px; 
+  width: 100%; 
+  border: 1px solid black;
+}
+
 .retangulo-branco {
   border-radius: 10px;
   border: 2px solid #d36b32;
