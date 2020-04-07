@@ -87,15 +87,40 @@ span {
   margin: 0 10px 0 0;
 }
 
+.texto-silaba {
+  display: flex;
+}
+
+
 /*
 ########################################
 # Formas                               #
 ########################################
 */
 
+
+.silaba {
+  float: left;
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+.silaba td {
+  height: 20px;
+  width: 50px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
 #burlemarx {
   float: right;
   shape-outside: url("/assets/img/Encontro-32/img01.png");
+}
+
+.tirinha {
+  height: 300px;
+  width: 250px;
+  border: 1px solid black;
 }
 
 .quadrado {
