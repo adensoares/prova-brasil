@@ -1,0 +1,496 @@
+/*
+########################################
+# Geral                                #
+########################################
+*/
+
+
+@font-face {
+  font-family: Montserrat;
+  src:
+    url(./fonts/otf/Montserrat-Regular.otf),
+    url(./fonts/Montserrat-Regular.ttf);
+}
+
+html {
+  font-family: Montserrat;
+}
+
+html p,
+span {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+/* section {
+  display: flex;
+  flex-direction: column;
+  min-width: 1080px;
+  padding: 0 50px;
+  text-align: center;
+  box-sizing: border-box;
+} */
+
+.linha {
+  background: #000;
+  width: 100%;
+  height: 1px;
+  margin: 30px auto;
+  padding: 0;
+}
+
+.recuo-linha {
+  margin-left: 3em !important;
+  margin-right: 3em !important;
+  width: calc(100% - 3em) !important;
+}
+
+.page {
+  background: #000;
+  width: 100%;
+  height: 2px;
+  text-align: center;
+  margin: 50px 0;
+  padding: 0;
+}
+
+.page span {
+  background: #fff;
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.inicial {
+  margin-top: 150px;
+}
+
+.centralizado {
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.espelhado {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cabecalho img,
+.cabecalho h2 {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+.texto-silaba {
+  display: flex;
+}
+
+
+/*
+########################################
+# Formas                               #
+########################################
+*/
+
+
+.silaba {
+  float: left;
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+.silaba td {
+  height: 20px;
+  width: 50px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#burlemarx {
+  float: right;
+  shape-outside: url("/assets/img/Encontro-32/img01.png");
+}
+
+.tirinha {
+  height: 300px;
+  width: 250px;
+  border: 1px solid black;
+}
+
+.quadrado {
+  height: 150px;
+  width: 250px;
+  border: 1px solid black;
+}
+
+.retangulo {
+  height: 800px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.retangulo-branco {
+  border-radius: 10px;
+  border: 2px solid #d36b32;
+  min-height: 230px;
+  margin: 10px;
+  width: 100%;
+  padding: 20px 20px 0px 20px;
+
+}
+
+.retangulo-branco-laranja {
+  border: 2px solid #d89556;
+  min-height: 400px;
+  margin: 10px;
+  width: 100%;
+  padding: 20px 20px 0px 20px;
+
+}
+
+.retangulo-branco-verde {
+  border: 2px solid #83BF65;
+  min-height: 400px;
+  margin: 10px;
+  width: 100%;
+  padding: 20px 20px 0px 20px;
+
+}
+
+.retangulo-laranja {
+  border-radius: 10px;
+  background-color: #FDEBD4;
+  padding: 30px;
+  margin: 10px;
+  text-align: justify;
+  width: 100%;
+}
+
+.retangulo-azul {
+  min-height: 300px;
+  border-radius: 10px;
+  background-color: #0B71A2;
+  padding: 30px;
+  margin: 10px;
+  text-align: justify;
+  width: 100%;
+}
+
+.retangulo-azul>p {
+  color: #fff;
+  font-weight: 600;
+}
+
+.retangulo-azul>p {
+  color: #fff;
+  font-weight: 600;
+}
+
+.retangulo-azul>p>strong {
+  color: #FEC90A;
+  font-weight: 600;
+}
+
+.retangulo-laranja-2 {
+  border-radius: 50px;
+  background-color: #fcd399;
+  padding: 30px 30px 20px 30px;
+}
+
+/*
+########################################
+# Cores                                #
+########################################
+*/
+
+.azul {
+  color: #1b89cb;
+}
+
+
+.azul-2 {
+  color: #0A6B9A
+}
+
+.azul-escuro {
+  color: #1e4964;
+}
+
+
+
+.laranja {
+  color: #f58220;
+}
+
+.laranja-2 {
+  color: #d89556;
+}
+
+.roxo {
+  color: #6e2c91;
+}
+
+.verde {
+  color: #7CBB49;
+}
+
+.verde-2 {
+  color: #00B0AA;
+}
+
+
+
+/*
+########################################
+# Setas                                #
+########################################
+*/
+
+.seta-azul {
+  border-left: 14px solid #1b89cb;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  float: left;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+.seta-laranja {
+  border-left: 12px solid darkorange;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  float: left;
+  margin-right: 25px;
+  margin-top: 9px;
+}
+
+.seta-cinza {
+  border-left: 12px solid #939598;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  float: left;
+  margin-right: 25px;
+  margin-top: 9px;
+}
+
+
+.seta-verde {
+  border-left: 8px solid #00afaa;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  float: left;
+  margin-right: 5px;
+  margin-top: 9px;
+}
+
+.seta {
+  border-left: 12px solid #000;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  float: left;
+  margin-right: 25px;
+  margin-top: 9px;
+}
+
+/*
+########################################
+# Textos                               #
+########################################
+*/
+
+.texto-2 strong {
+  color: #fdbb13;
+}
+
+.texto strong {
+  color: #f58220;
+}
+
+.capitular::first-letter {
+  float: left;
+  font-size: 7em;
+  margin: 0 .1em 0 .3em;
+  line-height: 0.7em;
+}
+
+.header h1 {
+  color: #ffffff;
+  text-align: right;
+  margin-top: -200px;
+  margin-right: 70px;
+  font-weight: 1000;
+}
+
+.up {
+  text-transform: uppercase;
+}
+
+.ref p {
+  font-size: 0.7em;
+  text-align: center;
+}
+
+.titulo h1 {
+  font-weight: 1000;
+  font-size: 3em;
+}
+
+.subtitulo h2 {
+  font-size: 34px;
+  font-weight: 1000;
+}
+
+.subtitulo h3 {
+  font-weight: 1000;
+}
+
+.texto,
+.texto-preto,
+.texto-2 {
+  width: 100%;
+}
+
+.recuo p {
+  text-indent: 2em;
+}
+
+.bold {
+  font-weight: 1000;
+}
+
+
+/*
+########################################
+# Imagens                              #
+########################################
+*/
+
+.icones {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.icones img {
+  width: 70%;
+}
+
+.header img {
+  width: 100%;
+}
+
+.w10 {
+  width: 10%;
+}
+
+.w15 {
+  width: 15%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w35 {
+  width: 35%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w45 {
+  width: 45%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w55 {
+  width: 55%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w65 {
+  width: 65%;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w75 {
+  width: 75%;
+}
+
+.w80 {
+  width: 80%;
+}
+
+.w85 {
+  width: 85%;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.w95 {
+  width: 95%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+/*
+########################################
+# Fração Matemática                    #
+########################################
+*/
+
+.math {
+  width: 45px;
+  height: 46px;
+  font-size: 25px;
+  margin: 0 -4px 0px 0;
+  display: inline-block;
+}
+
+.math-img {
+  width: 45px;
+  height: 46px;
+  padding: 4px 6px 6px 8px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.math span {
+  margin: 0;
+}
