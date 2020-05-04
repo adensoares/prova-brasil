@@ -181,6 +181,7 @@ span {
   width: 100%;
 }
 
+
 .retangulo-azul {
   min-height: 300px;
   border-radius: 10px;
@@ -204,6 +205,22 @@ span {
 .retangulo-azul>p>strong {
   color: #FEC90A;
   font-weight: 600;
+}
+
+.retangulo-verde {
+  border: 2px solid #73B951;
+  min-height: 300px;
+  border-radius: 10px;
+  background-color: #B3D59B;
+  padding: 30px;
+  margin: 10px;
+  text-align: justify;
+  width: 100%;
+}
+
+.retangulo-verde>p>strong {
+  color: #d36b32;
+  font-weight: bold;
 }
 
 .retangulo-laranja-2 {
