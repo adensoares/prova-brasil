@@ -22,14 +22,16 @@ span {
   text-align: justify;
 }
 
-/* section {
+section {
   display: flex;
   flex-direction: column;
-  min-width: 1080px;
-  padding: 0 50px;
+  /* min-width: 1080px;
+  padding: 0 50px; */
+  min-width: auto;
+  padding: 0;
   text-align: center;
   box-sizing: border-box;
-} */
+}
 
 .linha {
   background: #000;

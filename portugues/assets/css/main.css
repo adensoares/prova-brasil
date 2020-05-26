@@ -16,11 +16,24 @@ html {
   font-family: Montserrat;
 }
 
+
 html p,
 span {
   font-size: 1.2rem;
   text-align: justify;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  /* min-width: 1080px;
+  padding: 0 50px; */
+  min-width: auto;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
 
 .linha {
   background: #000;
@@ -60,10 +73,9 @@ span {
 }
 
 .centralizado {
-  /* margin: 0 auto; */
+  margin: 0 auto;
   display: flex;
   justify-content: center;
-  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -92,12 +104,41 @@ span {
 }
 
 
+
+
 /*
 ########################################
 # Formas                               #
 ########################################
 */
 
+.receita-img {
+  min-width: 700px;
+  transform: rotate(-2deg);
+}
+
+.receita-titulo p {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.receita-texto {
+  position: absolute;
+  bottom: 38px;
+  left: 30px;
+  width: 90%;
+
+}
+
+.receita-texto p {
+  font-size: 1em;
+}
+
+.receita-texto strong {
+  color: #f58220;
+}
 
 .silaba {
   float: left;
@@ -123,16 +164,66 @@ span {
   border: 1px solid black;
 }
 
+.quadrinho {
+  height: 300px;
+  width: 100%;
+  border: 5px solid black;
+}
+
 .quadrado {
   height: 150px;
   width: 250px;
   border: 1px solid black;
 }
 
+.retangulo-amarelo {
+  width: 100%;
+  background-color: #FCF3A5;
+  margin-bottom: 20px;
+  padding: 5%;
+}
+
+.retangulo-amarelo-amarelo {
+  border-radius: 50px;
+  width: 100%;
+  border: 2px solid #FEC90A;
+  background-color: #FEE9A9;
+  margin-bottom: 20px;
+  padding: 0.5%;
+}
+
+.retangulo-amarelo-amarelo>p {
+  margin: 1%;
+  text-align: center;
+}
+
+.retangulo-azul {
+  border-radius: 10px;
+  width: 100%;
+  background-color: #9CC0DF;
+  margin-bottom: 20px;
+  padding: 0.5%;
+  transform: skew(-5deg);
+  font-style: italic;
+}
+
+.retangulo-azul>p {
+  margin: 1%;
+  text-align: center;
+}
+
 .retangulo {
   height: 800px;
   width: 100%;
   border: 1px solid black;
+}
+
+.retangulo-branco-preto {
+  border: 2px solid #000;
+  min-height: 500px;
+  margin: 10px;
+  width: 100%;
+  padding: 20px 20px 0px 20px;
 }
 
 .retangulo-branco {
@@ -142,7 +233,6 @@ span {
   margin: 10px;
   width: 100%;
   padding: 20px 20px 0px 20px;
-
 }
 
 .retangulo-laranja {
@@ -241,7 +331,7 @@ span {
 }
 
 .texto strong {
-  color: #f58220;
+  color: #0E83BC;
 }
 
 .capitular::first-letter {
@@ -250,6 +340,7 @@ span {
   margin: 0 .1em 0 .3em;
   line-height: 0.7em;
 }
+
 
 .header h1 {
   color: #ffffff;
@@ -271,12 +362,15 @@ span {
 
 .ref p {
   font-size: 0.7em;
-  text-align: center;
 }
 
 .titulo h1 {
   font-weight: 1000;
   font-size: 3em;
+}
+
+.titulo h4 {
+  font-weight: bold;
 }
 
 .subtitulo h2 {
@@ -309,13 +403,12 @@ span {
 ########################################
 */
 
-.icones {
-  margin-top: 50px;
+.icone {
   margin-bottom: 20px;
 }
 
-.icones img {
-  width: 70%;
+.icone img {
+  float: left;
 }
 
 .header img {
