@@ -71,11 +71,21 @@ section {
 }
 
 .centralizado {
-  /* margin: 0 auto; */
+  margin: 0 auto;
   display: flex;
   justify-content: center;
-  width: 100%;
   margin-bottom: 20px;
+  /* width: 100%; */
+
+}
+
+.info p {
+  font-size: 14px;
+}
+
+.info-line {
+  border-top: 2px solid #888;
+  width: 120px;
 }
 
 .espelhado {
@@ -103,11 +113,26 @@ section {
 }
 
 
+
 /*
 ########################################
 # Formas                               #
 ########################################
 */
+
+.alternativa-retangulo {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.alternativa-retangulo td {}
+
+.alt-ret {
+  border: solid black 1px;
+  height: 40px;
+  width: 100px;
+}
 
 
 .silaba {
@@ -183,6 +208,15 @@ section {
   width: 100%;
 }
 
+.retangulo-bege {
+  border-radius: 10px;
+  background-color: #F0CFB1;
+  padding: 0.5%;
+  padding-top: 2%;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
 
 .retangulo-azul {
   min-height: 300px;
@@ -207,6 +241,12 @@ section {
 .retangulo-azul>p>strong {
   color: #FEC90A;
   font-weight: 600;
+}
+
+.retangulo-branco-verde {
+  border-radius: 0px;
+  background-color: #ffffff;
+  min-height: 250px;
 }
 
 .retangulo-verde {
@@ -332,6 +372,10 @@ section {
 ########################################
 */
 
+.reta {
+  text-decoration: overline;
+}
+
 .texto-2 strong {
   color: #fdbb13;
 }
@@ -410,6 +454,10 @@ section {
 
 .header img {
   width: 100%;
+}
+
+.w10 {
+  width: 10%;
 }
 
 .w10 {
