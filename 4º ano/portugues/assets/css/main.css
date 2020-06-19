@@ -198,11 +198,11 @@ Setas
 }
 
 .seta-verde {
-  border-left: 8px solid #00afaa;
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
+  border-left: 12px solid #00afaa;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
   float: left;
-  margin-right: 5px;
+  margin-right: 25px;
   margin-top: 9px;
 }
 

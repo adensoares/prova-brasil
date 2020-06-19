@@ -183,8 +183,14 @@ section {
   padding: 5%;
 }
 
+.retangulo-amarelo p,
+.retangulo-amarelo h2,
+.retangulo-amarelo-amarelo p {
+  font-style: italic;
+}
+
 .retangulo-amarelo-amarelo {
-  border-radius: 50px;
+  border-radius: 25px;
   width: 100%;
   border: 2px solid #FEC90A;
   background-color: #FEE9A9;
